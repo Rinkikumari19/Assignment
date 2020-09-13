@@ -1,0 +1,85 @@
+
+.content1{
+    width: 28%;
+    border: 3px solid rgb(5, 10, 5);
+    padding: 10px;
+    margin: 40px;
+    background-color: rgb(138, 142, 155);
+    text-align: center;
+}
+.content2{
+    width: 28%;
+    border: 3px solid rgb(5, 10, 5);
+    padding: 10px;
+    margin: 40px;
+    background-color: rgb(138, 142, 155);
+    text-align: center;
+    float: right;
+    margin-top: -185px;
+    margin-right:455px;
+}
+.content3{
+    width: 28%;
+    border: 3px solid rgb(5, 10, 5);
+    padding: 10px;
+    margin: 40px;
+    background-color: rgb(138, 142, 155);
+    text-align: center;
+    float: right;
+    margin-top: -185px;
+    margin-left:27%;
+}
+
+.box{
+    border: 2px solid rgb(5, 10, 5);
+    float:right;
+    margin-bottom:0;
+    margin-right: -12px;
+    margin-top:-13px;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+
+@media only screen and (max-width:667px){
+    .content1{
+        width: 80%;
+        margin-left: 4%;
+        font-size: 25px;
+    }
+    .content2{
+        width: 80%;
+        margin-top: 3%;
+        float: left;
+        margin-left: 4%;
+        font-size: 25px;
+    }
+    .content3{
+        width: 80%;
+        margin-top: 5%;
+        float: left;
+        margin-left: 6%;
+        margin-left: 4%;
+        font-size: 25px;
+    }
+    .container{
+        margin-left: 3.5%;
+    }
+}
+@media only screen and (min-width:667px) and (max-width:991px){
+    .content1{
+        width:40%;
+        font-size: 30px;
+    }
+    .content2{
+        width:40%;
+        margin-right: 5%;
+        font-size: 30px;
+        margin-top:-500px;
+        
+    }
+    .content3{
+        width:88%;
+        margin-top:3%;
+        font-size: 30px;
+    }
+}
